@@ -1,27 +1,29 @@
 {
-  "name": "mevlampiev-site",
-  "version": "1.0.0",
-  "description": "nodejs package",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nissan1361/mevlampiev-site.git"
-  },
-  "keywords": [
-    "nodejs",
-    "js"
-  ],
-  "author": "Maxim Evlampiev",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nissan1361/mevlampiev-site/issues"
-  },
-  "homepage": "https://github.com/nissan1361/mevlampiev-site#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  },
-  "dependencies": {}
+    "name": "mevlampiev-site",
+    "version": "1.0.0",
+    "description": "nodejs package",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nissan1361/mevlampiev-site.git"
+    },
+    "keywords": [
+        "nodejs",
+        "js"
+    ],
+    "author": "Maxim Evlampiev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nissan1361/mevlampiev-site/issues"
+    },
+    "homepage": "https://github.com/nissan1361/mevlampiev-site#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    },
+    "dependencies": {}
 }
